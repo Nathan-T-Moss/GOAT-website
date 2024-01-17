@@ -1,0 +1,43 @@
+body {
+  background-image: url("images/background_gizz.png"); /* credit to u/lewjrew for background image*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6%;
+  padding-top: 5%;
+}
+
+#mainContainer {
+  margin: auto;
+  max-width: 55%;
+  border-radius: 5rem;
+  background: lightgray;
+  padding: 10%;
+  box-shadow: 7px 7px 5px black, -7px -7px 5px black;
+  object-fit: contain;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainTitle {
+  font-size: larger;
+}
+
+.txtimgContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding-top: 3%;
+    padding-bottom: 3%; */
+  padding: 3%;
+}
+
+.txtimgContainer img {
+  width: 20rem;
+  object-fit: contain;
+  border-radius: 5rem;
+  border: 3px solid black;
+}
+
+.txtimgContainer #text {
+  padding-right: 10%;
+}
