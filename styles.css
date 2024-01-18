@@ -8,13 +8,13 @@ body {
 }
 
 #mainContainer {
-  margin: auto;
-  max-width: 55%;
+  margin: 0 0 0 auto;
+  /* max-width: 55%; */
   border-radius: 5rem;
   background: lightgray;
   padding: 10%;
   box-shadow: 7px 7px 5px black, -7px -7px 5px black;
-  object-fit: contain;
+  object-fit: cover;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -24,20 +24,23 @@ body {
 
 .txtimgContainer {
   display: flex;
+  padding: 5%;
   justify-content: space-around;
   align-items: center;
+  float: left
+  white-space: no-wrap;
   /* padding-top: 3%;
     padding-bottom: 3%; */
-  padding: 3%;
+  /* padding: 5%; */
 }
 
 .txtimgContainer img {
-  width: 20rem;
-  object-fit: contain;
+  width: 15rem;
+  /* object-fit: cover; */
   border-radius: 5rem;
   border: 3px solid black;
 }
 
-.txtimgContainer #text {
-  padding-right: 10%;
+.text {
+  width: 60%;
 }
